@@ -1,0 +1,16 @@
+{
+  "name": "hey",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npx shadow-cljs -d cider/cider-nrepl:0.26.0 watch :frontend"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.15.6"
+  },
+  "dependencies": {
+    "react": "^18.0.0-alpha-88d121899-20210811",
+    "react-dom": "^18.0.0-alpha-88d121899-20210811",
+    "react-refresh": "^0.11.0-alpha-82583617b-20210812"
+  }
+}
